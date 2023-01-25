@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yash_Kumar_Gupta</title>
+    <link rel = "stylesheet" href = "Style.css">
+    <script src="https://kit.fontawesome.com/916e58f6d9.js" crossorigin="anonymous"></script></head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/Y.png" class="logo">
+                <ul id="sidemenu">
+                    <li> <a href="#header">Home</a></li>
+                    <li> <a href="#about">About</a></li>
+                    <li> <a href="#projects">Projects</a></li>
+                    <li> <a href="#portfolio">Achievements</a></li>
+                    <li> <a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <!--<div class="toggle-btn" id="btn3"><span id="btnText"> Light</span><img src="Images/sun.png" id="btnIcon"></div>-->
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text" >
+                <p>Upcoming Software Engineer</p>
+                <h1>Hey, I'm <span>Yash </span><br> Kumar Gupta :)</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ------------About----------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/toBeCropped-removebg-preview.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class = "sub-title">Know me more...</h1>
+                    <p><br>I'm a programmer and developer who eagerly
+                        try to do work with new innovations and
+                        Technologies. Good command of English and
+                        staying motivated to enhance my skill set
+                        through proper guidance and challenging
+                        projects.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Coder/ Programmer</span><br> Problem Solving with Java</li>
+                                <li><span>Web Development</span><br> Designing Web Interfaces</li>
+                                <li><span>Artificial Intelligence/ Machine Learning</span><br> Building training models</li>
+                                <li><span>Digital Image Processing</span><br> Develop training-testing dataset</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2020-2024</span><br> Bachelor of Technology(CSE) at GLA University Mathura CPI-8.2</li>
+                                <li><span>2019-2020</span><br> Senior Secondary (12th) from MVM Fatehpur Percentage-82%</li>
+                                <li><span>2017-2018</span><br> Higher Secondary (10th) from MVM Fatehpur CGPA-9.1</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>May 2024-Jul 2024</span><br>Opertion Intern at Nblik India Pvt. Ltd. Delhi</li>
+                                <li><span>2022-Present</span><br> Financial Head of team Computer Society of India (CSI) @GLAU</li>
+                                <li><span>Jun 2021-Mar 20222</span><br> Coorinated multiple events as Event management head</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------ Project-->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">PROJECTS</h1>
+            <div class="project-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Food Waste Management</h2>
+                    <p>Framework are Jupyter, MatLab and MS Excel.
+                         Using Machine learning and Image Processing.
+                         Developed model dataset by processing image and computing result.
+                         Detected on real time, the amount of left meal in plate and classified as Wasted or Not Wasted.
+                         Computed result by using various machine learning algorithms</p>
+                         <a href="https://github.com/Yash-Kumar-Gupta-0845/Mini-Project-1" target="_blank">Check it out...</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>ATM machine Simulator</h2>
+                    <p>Framework is PyCharm (Python Editor).
+                         Using Python programming language.
+                         Interpreted the demy of ATM machine transection works.
+                         Implemented in Python programming language and easily understandable.
+                         Helped to those who want to know how an ATM machine works.</p>
+                         <a href="https://github.com/Yash-Kumar-Gupta-0845/pythonProject_For_ATM_Services" target="_blank">Check it out...</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-html5"></i>
+                    <h2>Design Portfolio</h2>
+                    <p>Framework is VSCode.
+                         Using HTML, CSS and JavaScript.
+                         Designed portfolio frontend containing my own details and published it globally.
+                         Platform independent languages used like HTML, CSS and JavaScript.
+                         Easily accessible by any recruiter to know me in available devices.</p>
+                         <a href="https://github.com/Yash-Kumar-Gupta-0845/Yash_Kumar_Gupta_Portfolio" target="_blank">Check it out...</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----Portfolio---- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">ACHIEVEMENTS</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/CodeChef.png">
+                    <div class="layer">
+                        <h3>CODECHEF Profile</h3>
+                        <p>Currently in Div 3 2(<i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>) programmer. Solved more than 53+ question in 9+ contests</p>
+                        <a href="https://www.codechef.com/users/yash_0845" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/LeetCode.jpg">
+                    <div class="layer">
+                        <h3>LEETCODE Profile</h3>
+                        <p>50+ Days striker holder. Solved more than 134+ question in Java Programming Language</p>
+                        <a href="https://leetcode.com/Yash_Kumar_Gupta/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/Hackerrank.jpg">
+                    <div class="layer">
+                        <h3>HACKERRANK Profile</h3>
+                        <p>Owned Python verfied programmer certificate. Solved more than 150+ question in 3+ programming language including Java, Python and C</p>
+                        <a href="https://www.hackerrank.com/_201500820?hr_r=1" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/Yash-Kumar-Gupta-0845" class="btn" target="_blank">See more</a>
+        </div>
+    </div>
+    <!-- -----Contact us----- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>yash.gupta0845@gmail.com.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>9621680845</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/yash-kumar-gupta-0845/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Yash-Kumar-Gupta-0845" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                        <a href="https://twitter.com/YashKum57574440" target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="https://www.instagram.com/y9a1s7h4/?next=%2F" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                    </div>
+                    <a href="Images/Yash_Kumar_Gupta_B.Tech_GLAUNIVERSITY.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name = "submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email">
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Send Query</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright"><p> Copyright <i class="fa-solid fa-copyright"></i> Yash. Made with Love and Passion <span><i class="fa-solid fa-heart"></i> <i class="fa-solid fa-heart"></i> <i class="fa-solid fa-heart"></i></span></p></div>
+    </div>
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzr_WvNZJV-Y1l5PZTwNTeAts89fGAtk-B7ILsRuwTs8i-1G-M9cYrFrsBuaCpneOpaJg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Query sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            })
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    },5000)
+  </script>
+</body>
+</html>
+Footer

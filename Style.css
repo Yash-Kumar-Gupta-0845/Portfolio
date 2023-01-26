@@ -360,6 +360,11 @@ form input, form textarea{
     border-radius: 6px;
 }
 
+.contact-right:hover{
+    background: #ffde59;
+    transition: transform 0.5s;
+}
+
 form .btn2{
     padding: 14px;
     font-size: 18px;

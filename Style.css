@@ -185,6 +185,9 @@ nav ul li a:hover::after{
     font-weight: 500;
     margin-bottom: 15px;
 }
+.project-list div p{
+    display-contet: flex;
+}
 
 .project-list div a{
     text-decoration: none;
